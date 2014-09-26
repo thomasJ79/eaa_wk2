@@ -69,4 +69,181 @@ usage: git [--version] [--help] [-C <path>] [-c name=value]
 [01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git -a[K[Kadd -A
 [01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git add -A[K[K[K[K[K[Kcommu[Kit -A
 error: unknown switch `A'
-usage: git commit [options] [--] <pat
+usage: git commit [options] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit hook
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git commit -A[Ka
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6      File: /home/mint/EAA/.git/COMMIT_EDITMSG                  [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'origin/master'.[8d#[9d# Changes to be committed:[10d#[9Gnew file:   typescript[11d#[22;33H(B[0;7m[ Read 9 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mddd[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: /home/mint/EAA/.git/COMMIT_EDITMSG      [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[22;55H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 9 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>[master 0ff39e1] ddd
+ 1 file changed, 72 insertions(+)
+ create mode 100644 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git push origin master
+Username for 'https://github.com': thomasj79
+Password for 'https://thomasj79@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 1.09 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/thomasJ79/eaa_wk2.git
+   fe64e43..0ff39e1  master -> master
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m ls -l
+total 20
+-rw-r--r-- 1 mint mint 3535 Sep 26 15:12 history.txt
+-rw-r--r-- 1 mint mint   13 Sep 26 14:48 README.md
+-rw-r--r-- 1 mint mint  200 Sep 26 15:41 sript.sh
+-rw-r--r-- 1 mint mint    0 Sep 26 15:07 TEST.md
+-rw-r--r-- 1 mint mint 8192 Sep 26 15:39 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m chmod +x sript.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m chmod +x sript.shls -l[K
+total 20
+-rw-r--r-- 1 mint mint 3535 Sep 26 15:12 history.txt
+-rw-r--r-- 1 mint mint   13 Sep 26 14:48 README.md
+-rwxr-xr-x 1 mint mint  200 Sep 26 15:41 [0m[01;32msript.sh[0m
+-rw-r--r-- 1 mint mint    0 Sep 26 15:07 TEST.md
+-rw-r--r-- 1 mint mint 8192 Sep 26 15:39 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m ./sript.sh
+2
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m history
+    1  ls -ltr
+    2  sudo gedit /etc/cntlm.conf 
+    3  bg
+    4  cd
+    5  find . -name *.crt -print 2>/dev/null
+    6  cd Downloads/
+    7  ls
+    8  vi eduroam-linux-IoTT_Linux.sh 
+    9  cd
+   10  sudo gedit /etc/cntlm.conf 
+   11  sudo gedit /etc/cntlm.conf 
+   12  bg
+   13  cntlm -M
+   14  cntlm -H
+   15  cntlm -H
+   16  cntlm -H
+   17  cntlm -H
+   18  sudo service cntlm restart
+   19  cntlm -H
+   20  cntlm -H cntlm.conf
+   21  cntlm cntlm.conf -H
+   22  cntlm -H
+   23  cntlm -H www.sun.com
+   24  cntlm -H
+   25  cntlm -H
+   26  ls /etc
+   27  sudo mv /etc/cntlm.conf /etc/cntlm.conf.old
+   28  cntlm -H
+   29  ls
+   30  sudo apt-get remove cntlm
+   31  sudo apt-get install cntlm
+   32  sudo apt-get remove cntlm
+   33  sudo apt-get install cntlm
+   34  sudo service start cntlm
+   35  sudo apt-get install cntlm
+   36  sudo service start 
+   37  sudo service cntlm start
+   38  sudo service cntlm start -v
+   39  sudo apt-get remove cntlm
+   40  sudo apt-get install cntlm
+   41  sudo apt-get remove cntlm
+   42  sudo apt-get install cntlm
+   43  sudo apt-get remove cntlm
+   44  find / -name cntlm.conf -print
+   45  find / -name cntlm.conf -print 2>/dev/nul
+   46  find / -name cntlm.conf -print 2>/dev/null
+   47  sudo apt-get remove cntlm
+   48  sudo apt-get install cntlm
+   49  sudo apt-get install cntlm
+   50  ls /etc/cntlm.conf
+   51  sudo apt-get purge cntlm
+   52  sudo apt-get install cntlm
+   53  find / -name cntlm.conf -print 2>/dev/null
+   54  cntlm -H
+   55  sudo vi /etc/cntlm.conf
+   56  cntlm -H
+   57  fg
+   58  sudo service cntlm restart
+   59  vi eduroam-linux-IoTT_Linux.sh 
+   60  sudo vi /etc/cntlm.conf
+   61  cntlm -M
+   62  cntlm -H -c /etc/cntlm.conf
+   63  cntlm -c /etc/cntlm.conf -H
+   64  cntlm -H
+   65  cntlm -c /etc/cntlm.conf -H
+   66  cntlm -c /etc/cntlm.conf 
+   67  cntlm -H -u jburns@stf
+   68  sudo vi /etc/cntlm.conf
+   69  sudo service cntlm restart
+   70  sudo vi /etc/cntlm.conf
+   71  sudo service cntlm restart
+   72  sudo service cntlm restart
+   73  sudo service cntlm restart
+   74  ls -ltr
+   75  rm *.cer
+   76  ls
+   77  chef
+   78  ls /opt
+   79  /opt/chef/bin/chef-solo
+   80  sudo shutdown -r now
+   81  ls -ltr
+   82  vi .profile 
+   83  grep processor /proc/cpuinfo 
+   84  grep processor /proc/cpuinfo | wc-l
+   85  grep processor /proc/cpuinfo | wc -l
+   86  rm script.sh
+   87  rn script.sh
+   88  rm script.sh
+   89  ls
+   90  rm sript.sh
+   91  gedit sript.sh
+   92  ls
+   93  ls
+   94  ls -l
+   95  touch sript.sh
+   96  ls
+   97  gedit sript.sh
+   98  g
