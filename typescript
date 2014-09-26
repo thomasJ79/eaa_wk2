@@ -1,0 +1,72 @@
+Script started on Fri 26 Sep 2014 15:25:38 IST
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m grep processor /proc/cpuinfo 
+[01;31m[Kprocessor[m[K	: 0
+[01;31m[Kprocessor[m[K	: 1
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m grep processor /proc/cpuinfo | wc-l
+wc-l: command not found
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m grep processor /proc/cpuinfo | wc-l[K[K -l
+2
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m rn scri[[Kpt.sh[1P script.shm script.sh
+rm: cannot remove ‘script.sh’: No such file or directory
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m rm script.sh[1P script.shn script.sh
+The program 'rn' can be found in the following packages:
+ * trn
+ * trn4
+Try: sudo apt-get install <selected package>
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m rm script.sh
+rm: cannot remove ‘script.sh’: No such file or directory
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m ls
+history.txt  README.md  sript.sh  TEST.md  typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m rm sript.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m rm sript.sh[K[K[K[K[K[K[K[K[K[K[Kgedit sript.ch[K[Ksh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m ls
+history.txt  README.md  TEST.md  typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m ls
+history.txt  README.md  TEST.md  typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m ls -l
+total 8
+-rw-r--r-- 1 mint mint 3535 Sep 26 15:12 history.txt
+-rw-r--r-- 1 mint mint   13 Sep 26 14:48 README.md
+-rw-r--r-- 1 mint mint    0 Sep 26 15:07 TEST.md
+-rw-r--r-- 1 mint mint    0 Sep 26 15:25 typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m touch sci[K[Kript.sh
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m ls
+history.txt  README.md  sript.sh  TEST.md  typescript
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m rm[K[Kgedit sript.sh
+
+** (gedit:6062): WARNING **: Could not write gedit state file: Failed to create file '/home/mint/.gnome2/gedit/gedit-2.K073MX': Permission denied
+
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git co[K[K[K[K[K[Kgit -A
+Unknown option: -A
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m 
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git -A
+Unknown option: -A
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git -A[Ka
+Unknown option: -a
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git -a[K[Kadd -A
+[01;32mmint@mint-VirtualBox[01;34m ~/EAA $[00m git add -A[K[K[K[K[K[Kcommu[Kit -A
+error: unknown switch `A'
+usage: git commit [options] [--] <pat
