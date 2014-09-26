@@ -1,0 +1,135 @@
+    1  ls -ltr
+    2  sudo gedit /etc/cntlm.conf 
+    3  bg
+    4  cd
+    5  find . -name *.crt -print 2>/dev/null
+    6  cd Downloads/
+    7  ls
+    8  vi eduroam-linux-IoTT_Linux.sh 
+    9  cd
+   10  sudo gedit /etc/cntlm.conf 
+   11  sudo gedit /etc/cntlm.conf 
+   12  bg
+   13  cntlm -M
+   14  cntlm -H
+   15  cntlm -H
+   16  cntlm -H
+   17  cntlm -H
+   18  sudo service cntlm restart
+   19  cntlm -H
+   20  cntlm -H cntlm.conf
+   21  cntlm cntlm.conf -H
+   22  cntlm -H
+   23  cntlm -H www.sun.com
+   24  cntlm -H
+   25  cntlm -H
+   26  ls /etc
+   27  sudo mv /etc/cntlm.conf /etc/cntlm.conf.old
+   28  cntlm -H
+   29  ls
+   30  sudo apt-get remove cntlm
+   31  sudo apt-get install cntlm
+   32  sudo apt-get remove cntlm
+   33  sudo apt-get install cntlm
+   34  sudo service start cntlm
+   35  sudo apt-get install cntlm
+   36  sudo service start 
+   37  sudo service cntlm start
+   38  sudo service cntlm start -v
+   39  sudo apt-get remove cntlm
+   40  sudo apt-get install cntlm
+   41  sudo apt-get remove cntlm
+   42  sudo apt-get install cntlm
+   43  sudo apt-get remove cntlm
+   44  find / -name cntlm.conf -print
+   45  find / -name cntlm.conf -print 2>/dev/nul
+   46  find / -name cntlm.conf -print 2>/dev/null
+   47  sudo apt-get remove cntlm
+   48  sudo apt-get install cntlm
+   49  sudo apt-get install cntlm
+   50  ls /etc/cntlm.conf
+   51  sudo apt-get purge cntlm
+   52  sudo apt-get install cntlm
+   53  find / -name cntlm.conf -print 2>/dev/null
+   54  cntlm -H
+   55  sudo vi /etc/cntlm.conf
+   56  cntlm -H
+   57  fg
+   58  sudo service cntlm restart
+   59  vi eduroam-linux-IoTT_Linux.sh 
+   60  sudo vi /etc/cntlm.conf
+   61  cntlm -M
+   62  cntlm -H -c /etc/cntlm.conf
+   63  cntlm -c /etc/cntlm.conf -H
+   64  cntlm -H
+   65  cntlm -c /etc/cntlm.conf -H
+   66  cntlm -c /etc/cntlm.conf 
+   67  cntlm -H -u jburns@stf
+   68  sudo vi /etc/cntlm.conf
+   69  sudo service cntlm restart
+   70  sudo vi /etc/cntlm.conf
+   71  sudo service cntlm restart
+   72  sudo service cntlm restart
+   73  sudo service cntlm restart
+   74  ls -ltr
+   75  rm *.cer
+   76  ls
+   77  chef
+   78  ls /opt
+   79  /opt/chef/bin/chef-solo
+   80  sudo shutdown -r now
+   81  ls -ltr
+   82  vi .profile 
+   83  export GIT_SSL_NO_VERIFY=1
+   84  export http_proxy=http://localhost:3128
+   85  echo $ GIT_SSL_NO_VERIFY=1
+   86  export GIT_SSL_NO_VERIFY=1
+   87  export run=5
+   88  echo run
+   89  echo $run
+   90  sudo -E apt-get install git
+   91  mkdir EAA
+   92  cd eaa
+   93  cd EAA
+   94  ls
+   95  touch README.md
+   96  ls
+   97  ls-l
+   98  git init
+   99  git add README.md
+  100  git commit -m "first commit"
+  101  git config --global user.email "<thomasjones79"gmail.com>"
+
+git config --global user.name "<thomasj79>"
+
+git add README.md
+  102  git config --global user.email t"homasjones79@gmail.com"
+  103  git config --global user.email "thomasjones79@gmail.com"
+  104  git config --global user.name "thomasj79"
+  105  git add README.md
+  106  git commit -m "first commit"
+  107  git remote add origin https://github.com/thomasJ79/eaa_wk2.git
+  108  git push -u origin master
+  109  history
+  110  git add -a
+  111  git add-a
+  112  git Adfd-a
+  113  git Add-a
+  114  git Add -a
+  115  git add -A
+  116  ls-l
+  117  ls
+  118  edit
+  119  edit README.md
+  120  git commit -A
+  121  git commit -a
+  122  git push origin master
+  123  history
+  124  ls
+  125  touch TEST.md
+  126  ls
+  127  git add TEST.md
+  128  git commit TEST.md
+  129  git push origimal master
+  130  git push origin master
+  131  history > history.txt
